@@ -22,6 +22,9 @@ if __name__ == "__main__":
     text_to_speech(text)
     print("Text converted to speech and saved as output.mp3")
 
+text_to_speech(text="Hi, I am dancer also and a fighter also"
+              ,language='en'
+              ,filename="\\Users\\Rajasri\\Downloads\\output.mp3")
 
 text_to_speech(text="hi, my name is maha"
               ,language='en'
